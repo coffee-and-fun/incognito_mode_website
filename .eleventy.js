@@ -92,7 +92,7 @@ const createSocialImageForArticle = (input, output) =>
 			console.error(this.inputPath, e);
 			console.error(e);
 		}
-});
+	});
 
 const manifest = {
 	'main.js': '/assets/js/main.bundle.js',
@@ -105,7 +105,6 @@ const { tr } = require('date-fns/locale');
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ 'src/assets/': '/assets/' });
 	eleventyConfig.addLiquidFilter('limit', (arr, limit) => arr.slice(0, limit));
-	
 
 	eleventyConfig.addPlugin(pluginPWA, {
 		swDest: './docs/service-worker.js',

@@ -95,14 +95,14 @@ function crisp() {
   setTimeout(function () {
     // Crisp
     window.$crisp = [];
-    window.CRISP_WEBSITE_ID = "5cfe2ec4-4274-44e5-9891-55e838a20af9";
+    window.CRISP_WEBSITE_ID = '5cfe2ec4-4274-44e5-9891-55e838a20af9';
 
     (function () {
       d = document;
-      s = d.createElement("script");
-      s.src = "https://client.crisp.chat/l.js";
+      s = d.createElement('script');
+      s.src = 'https://client.crisp.chat/l.js';
       s.async = 1;
-      d.getElementsByTagName("head")[0].appendChild(s);
+      d.getElementsByTagName('head')[0].appendChild(s);
     })();
   }, 1000), {
     once: true
@@ -143,7 +143,7 @@ function loadManager() {
 
 function load() {
   new (vue_min_default())({
-    el: "#too-shy-to-ask-website",
+    el: '#too-shy-to-ask-website',
     data: {
       menus: false,
       // Pricing Table

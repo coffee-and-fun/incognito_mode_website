@@ -64,15 +64,15 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.bundle.js",
-    "revision": "d83c711fe916056e7ca782465bfe5dce"
+    "revision": "c51d324cdd39b741cf42a4d8fb6802e7"
   },
   {
     "url": "assets/js/main.css",
-    "revision": "06e95f71dd9d2403ad00af5771422afa"
+    "revision": "b7b614437bbceb28b1486db9575d6808"
   },
   {
     "url": "index.html",
-    "revision": "b4af9145a65ffa971d35354303a08b28"
+    "revision": "f76ea2268292dc0d3e77d54e577fde92"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

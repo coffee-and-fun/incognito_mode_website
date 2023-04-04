@@ -68,11 +68,15 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "74686b0ca2303f88cc2379af3df3f230"
+    "revision": "555a1167ab74294c032fbde2772cc632"
   },
   {
     "url": "index.html",
     "revision": "4d15744e084c3ebcaaf1b97d044c700a"
+  },
+  {
+    "url": "say-goodbye-to-awkward-browsing-moments-with-incognito-bear/index.html",
+    "revision": "e589a94e0903ae7de5f239dba0f4ca34"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

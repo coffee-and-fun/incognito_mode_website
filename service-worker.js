@@ -68,11 +68,11 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/main.css",
-    "revision": "555a1167ab74294c032fbde2772cc632"
+    "revision": "640135df66cdefec434a40ae0122ab2a"
   },
   {
     "url": "index.html",
-    "revision": "2517d78e69c789d3fea24ebb25e146cb"
+    "revision": "699b389ce710fd17005ce99830cbd405"
   },
   {
     "url": "say-goodbye-to-awkward-browsing-moments-with-incognito-bear/index.html",

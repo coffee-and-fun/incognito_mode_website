@@ -72,7 +72,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "2eef4c9c63c680bca5696d77a5d2dd7d"
+    "revision": "faef9f42562db8a3fe371f05a19bfd64"
   },
   {
     "url": "say-goodbye-to-awkward-browsing-moments-with-incognito-bear/index.html",

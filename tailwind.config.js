@@ -49,7 +49,18 @@ module.exports = {
 	},
 	daisyui: {
 		styled: true,
-		themes: true,
+		themes: [
+			{
+			  light: {
+				...require("daisyui/src/theming/themes")["light"],
+				"base-300": "#ffffff",
+				".bg-bear-color": {
+				  "background-color": "#9AEAEE",
+				},
+				"--primary-muted": "124 58% 237%",
+			  }
+			},
+		  ],
 		base: false,
 		utils: true,
 		logs: true,
